@@ -41,7 +41,7 @@ The initial script contained a single array, or list, of the twelve tickers in t
     
     Next i
  
-#### By creating an index variable to count the number of rows for each ticker array, and three new arrays, we are able to reduce the For Loop/ Nested Loop codes to a simpler, and much easier to read and navigate:
+#### By creating an index variable to count the number of rows for each ticker array, and three new arrays, we are able to reduce the For Loop/ Nested Loop codes to a simpler, readable code, and is much easier to read and navigate:
 
         Dim tickerIndex As Integer
         tickerIndex = 0
