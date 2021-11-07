@@ -41,7 +41,7 @@ The initial script contained a single array, or list, of the twelve tickers in t
     
     Next i
  
-#### By creating an index variable to count the number of rows for each ticker array, and three new arrays, we are able to reduce the For Loop/ Nested Loop codes to a simpler, readable code, and is much easier to read and navigate:
+#### By creating an index variable to count the number of rows for each ticker array, and three new arrays, we are able to reduce the For Loop/ Nested Loop code to a cleaner, readable patterned loop that is more efficient to run:
 
         Dim tickerIndex As Integer
         tickerIndex = 0
@@ -92,9 +92,14 @@ The new script, with additional arrays had the following results for the same 20
 
 <img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png" width="60%" height="40%">
 
+These results reflect a 10th of a second improvement on the final project. Although that is not a staggering number for this small data set, it will make a huge difference if we are to pull hundreds of thousands or more stock results from the stock market to analyze.
+
 ## Summary
 
-1. Advantages and Disadvantages of Refactoring
+#### Advantages and Disadvantages of Refactoring
+There are several advantages of refractoring existing code. First and most important, it prevents the programmer from reinventing the wheel. It is much more efficient to clean up and modernize code that has already been written. In addition, refractoring can be done in small intervals, or as time allows. If the programmer has only a short amount of time to dedicate to a refactoring project each week, it is simple enough to get in and do as much cleaning as time allows, then return later to continue. As long as the code continues to work, cleaning up comments and magic numbers can improve the code a little at a time. Finally, like all technologies over time, code changes; improvements to the coding applicaitons improve, so it is a good time to review old code and bring it up to date. These tasks, if performed infrequently, can prevent failures in the code.
+
+Disadvantages are the obvious: scripts that were quickly written to solve a problem may contain few comments explaining the decisions made, hard-coded data embedded in the code, and work-around scripts used to navigate broken code. All can be a nightmare to fix. Often, scripts linger far past their shelf life, which can result in an application that no longer functions because the coding is so outdated.
 
 2. Pros and Cons of Refactoring VBA Script
 
