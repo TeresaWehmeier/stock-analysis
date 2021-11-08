@@ -78,16 +78,14 @@ The initial script contained a single array, or list, of the twelve tickers in t
     
 #### Efficiency and Improvement
 One of the objectives of refactoring is to improve readability, replace hard-coded values and magic numbers, and speed up processing. Refactoring also allows the coder to improve the patterns in the script, making it easier to navigate. To measure improvement and efficiency, a timer was created to capture the time each script takes to run. The simple script was attached to both the original and final code:
-    startTime = Timer
-    EndTime = Timer
-    MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
+    startTime = Timer; EndTime = Timer; MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
     
-the results from the original script were captured for both sheets 2017 and 2018, with the following results:
+The results from the original script were captured for both sheets 2017 and 2018, with the following results:
 <img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Images/VBA_Script_Old_2017.png" width="60%" height="40%">
 
 <img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Images/VBA_Script_Old_2018.png" width="60%" height="40%">
 
-The new script, with additional arrays had the following results for the same 2017 and 2018 data:
+The new script, with additional arrays, had the following results for the same 2017 and 2018 data:
 <img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png" width="60%" height="40%">
 
 <img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png" width="60%" height="40%">
@@ -97,12 +95,12 @@ These results reflect a 10th of a second improvement on the final project. Altho
 ## Summary
 
 #### Advantages and Disadvantages of Refactoring
-The advantages of refactoring existing code are, first and most important, it prevents the programmer from reinventing the wheel. It is much more efficient to clean up and modernize code that has already been written. In addition, refractoring can be done in small intervals, or as time allows. If the programmer has only a short amount of time to dedicate to a refactoring project each week, it is simple enough to get in and do as much cleaning as time allows, then return later to continue. As long as the code continues to work, cleaning up comments and magic numbers can improve the code a little at a time. Finally, like all technologies over time, code changes; improvements to the coding applications improve, so it is a good time to review old code and bring it up to date. These tasks, if performed infrequently, can prevent failures in the code.
+The advantages of refactoring existing code are, first and most important, to prevent the programmer from reinventing the wheel. It is much more efficient to clean up and modernize code that has already been written. The programmer's value isn't in writing new code so much as it is in having the ability to take someone else's code and make it better. In addition, refractoring can be done in small intervals, or as time allows. If the programmer has only a short amount of time to dedicate to a refactoring project each week, it is simple enough to get in and do as much cleaning as time allows, then return later to continue. As long as the code continues to work, cleaning up comments and magic numbers can improve the code a little at a time. Finally, like all technologies over time, code changes; improvements to the coding applications improve, so it is a good time to review old code and bring it up to date. These tasks, if performed infrequently, can prevent failures in the code.
 
-Disadvantages are the obvious: scripts that were quickly written to solve a problem may contain few comments explaining the decisions made, hard-coded data embedded in the code, and work-around scripts used to navigate broken code. All can be a nightmare to fix. Often, older programming languages linger far past their shelf life, and if not reviewed regularly, can result in an application that no longer functions because the coding is outdated.
+Disadvantages are the obvious: scripts that were quickly written to solve a problem may contain few comments explaining the decisions made, hard-coded data embedded in the code, and work-around scripts used to navigate broken code. All can be a nightmare to fix. Often, older applications written in VBA linger far past their shelf life, and if not reviewed regularly, can result in an application that no longer functions correctly or at all.
 
 #### Pros and Cons of Refactoring VBA Script
-Rafactoring VBA script can be useful if the application it runs still has value for the end user. There are several guides on how to refactor in any programming language, because the process is the same. However, there are additional tools that are available in Visual Studio that can help with refactoring, and given the limitations of doing this task in the VBA environment is definitely a con to the process. Limited assistance with errors was, I found, very frustrating. However, I have not yet become proficient with the tool, so that may not be an issue as I develop my skills in the VBA.
+Rafactoring VBA script can be useful if the application it runs still has value for the end user. There are several guides on how to refactor in any programming language, because the process is the same. However, there are additional tools that are available in Visual Studio that can help with refactoring, and given the limitations of doing this task in the VBA environment makes it the one big con to refactoring in VBA. The application's limited assistance with errors was, I found, very frustrating. However, I have not yet become proficient with the tool, so that may not be an issue as I develop my skills in VBA.
 
 
 
