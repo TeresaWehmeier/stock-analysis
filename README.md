@@ -81,14 +81,14 @@ One of the objectives of refactoring is to improve readability, replace hard-cod
     startTime = Timer; EndTime = Timer; MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
     
 The results from the original script were captured for both sheets 2017 and 2018, with the following results:
-<img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Images/VBA_Script_Old_2017.png" width="60%" height="40%">
+<img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Images/VBA_Script_Old_2017.png" width="40%" height="20%">
 
-<img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Images/VBA_Script_Old_2018.png" width="60%" height="40%">
+<img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Images/VBA_Script_Old_2018.png" width="40%" height="20%">
 
 The new script, with additional arrays, had the following results for the same 2017 and 2018 data:
-<img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png" width="60%" height="40%">
+<img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png" width="40%" height="20%">
 
-<img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png" width="60%" height="40%">
+<img src = "https://github.com/TeresaWehmeier/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png" width="40%" height="20%">
 
 These results reflect a 10th of a second improvement on the final project. Although that is not a staggering number for this small data set, it will make a huge difference if we are to pull hundreds of thousands or more stock results from the stock market to analyze.
 
